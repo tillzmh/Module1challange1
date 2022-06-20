@@ -30,9 +30,10 @@ body {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav div ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 50px;
+    
 }
 
 a {
@@ -134,4 +135,11 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+@media screen and (max-width:450px){
+    header{
+        
+    }
+
 }
