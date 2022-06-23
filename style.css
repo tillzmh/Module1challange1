@@ -152,10 +152,14 @@ p {
     }
     .search-engine-optimization, .online-reputation-management, .social-media-marketing{
         height: fit-content;
+        margin-left: 100px;
+        width: ;
     }
     .benefits{
-        flex-wrap: wrap;
+        flex-wrap: auto;
         justify-content: space-around;
+        width: auto;
+        margin: auto;
     }
     .hero{
         height: auto;
